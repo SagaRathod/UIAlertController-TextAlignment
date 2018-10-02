@@ -1,8 +1,11 @@
 # UIAlertController-TextAlignment
 
 var titleString = "Your Message"
- if #available(iOS 8.0, *) {
+if #available(iOS 8.0, *)
+{
+ 
             let alertController = UIAlertController(title: ApplicationName, message: titleString, preferredStyle: .alert)
+            
             let OKAction = UIAlertAction(title: "OK", style: .cancel) { (action) in
                 alertController.dismiss(animated: true, completion: nil)
             }
